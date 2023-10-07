@@ -7,6 +7,8 @@ deployment:
     - /bin/cp -R assets $DEPLOYPATH
     - /bin/cp -R css $DEPLOYPATH
     - /bin/cp -R fonts $DEPLOYPATH
-    - /bin/cp -R img $DEPLOYPATH
+    - /bin/cp -R images $DEPLOYPATH
+    - /bin/cp -R upload $DEPLOYPATH
+    - /bin/cp -R plugins $DEPLOYPATH
     - /bin/cp -R js $DEPLOYPATH
     /bin/cp index.html $DEPLOYPATH
