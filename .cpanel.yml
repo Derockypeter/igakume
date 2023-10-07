@@ -3,10 +3,7 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/igakumep/public_html/
-    - /bin/cp -R .vscode $DEPLOYPATH
-    - /bin/cp -R assets $DEPLOYPATH
     - /bin/cp -R css $DEPLOYPATH
-    - /bin/cp -R fonts $DEPLOYPATH
     - /bin/cp -R images $DEPLOYPATH
     - /bin/cp -R upload $DEPLOYPATH
     - /bin/cp -R plugins $DEPLOYPATH
