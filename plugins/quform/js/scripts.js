@@ -31,9 +31,9 @@ jQuery(document).ready(function($) {
 		// Preload images
 		var images = [
 			'quform/images/close.png',
-			'quform/images/success.html',
-			'quform/images/error.html',
-			'quform/images/default-loading.html'
+			'quform/images/success.png',
+			'quform/images/error.png',
+			'quform/images/default-loading.png'
 		];
 
 		// Preload images for any active themes
